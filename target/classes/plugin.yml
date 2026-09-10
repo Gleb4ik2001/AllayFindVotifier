@@ -1,0 +1,14 @@
+name: AllayFind
+version: 1.0.0
+main: net.allayfind.paper.AllayFindPlugin
+api-version: '1.21'
+description: Persistent AllayFind vote receiver and rewards
+author: AllayFind
+commands:
+  allayfind:
+    description: AllayFind diagnostics and reward recovery
+    usage: /allayfind <status|poll|queue|retry UUID|confirm UUID>
+    permission: allayfind.admin
+permissions:
+  allayfind.admin:
+    default: op

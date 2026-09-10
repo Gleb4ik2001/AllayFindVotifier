@@ -1,0 +1,14 @@
+# Restart the server after changing these settings.
+site-url: "https://your-allayfind-site.example"
+server-id: 0
+api-token: ""
+# Paper Java listing; use bedrock only for a matching crossplay listing.
+edition: "java"
+poll-seconds: 30
+# Never enable on a public server. Plain HTTP only for loopback development.
+allow-local-http: false
+# Commands are frozen per vote when it is first stored locally.
+# Executed as console, only when the player is online. No leading slash.
+reward-commands:
+  - "give {player} minecraft:diamond 1"
+# Available placeholders: {player}, {uuid}, {vote_id}
